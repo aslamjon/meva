@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+
+    mask: {
+        position: center center;
+        size: 90%;
+        repeat: no-repeat;
+    }
+    -webkit-mask: {
+        position: center center;
+        size: 90%;
+        repeat: no-repeat;
+    }
+}
+.icon-play {
+    mask-image: url('../play.svg');
+    -webkit-mask-image: url('../play.svg');
+}
+.icon-search {
+    mask-image: url('../Shape1.svg');
+    -webkit-mask-image: url('../Shape1.svg');
+}
+.btn-primary:hover{
+    .icon-play, .icon-search{
+        background-color: black;
+    }
+}
+h1,h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+.col-md-9 {
+    .text{
+        font-size: 50px;
+        font-weight: 900;   
+    }
+}
+@media (max-width: 576px) {
+    .col-md-9 {
+        .text{
+            font-size: 14px;
+            font-weight: 200;   
+        }
+    }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+    
+    .col-md-9 {
+        .text{
+            font-size: 18px;
+            font-weight: 400;   
+        }
+    }
+}
+@media (min-width: 568px) and (max-width: 992px) {
+    .col-md-9 {
+        .text{
+            font-size: 22px;
+            font-weight: 600;   
+        }
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .col-md-9 {
+        .text{
+            font-size: 22px;
+            font-weight: 600;   
+        }
+    }
+}

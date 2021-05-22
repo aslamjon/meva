@@ -1,0 +1,171 @@
+body {
+  background-color: #F8F9FF; }
+
+.navbar {
+  padding: 0; }
+
+nav {
+  padding: 0;
+  background-color: #58D000 !important; }
+  nav .nav-item:hover {
+    background-color: #49C700 !important; }
+    nav .nav-item:hover a {
+      color: white; }
+  nav .iconcha {
+    right: 0; }
+  nav .nav-item {
+    font-size: 20px;
+    padding: 10px; }
+  nav .navbar-text {
+    padding: 0;
+    padding: 20px;
+    font-size: 20px; }
+    nav .navbar-text img {
+      margin-right: 10px; }
+  nav .navbar-text:hover {
+    background-color: #49C700 !important; }
+    nav .navbar-text:hover span {
+      color: white; }
+
+header {
+  height: 300px;
+  background: url("../meva-cheva/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  header .text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #FF9000;
+    font-size: 40px;
+    font-weight: 700; }
+
+.card {
+  border-radius: 10px;
+  border: none;
+  transition: 0.2s;
+  background-color: white; }
+  .card .card-body .green {
+    color: #3BBF00; }
+  .card .card-footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white !important; }
+    .card .card-footer .row .col-md-3 img {
+      cursor: pointer; }
+
+.card:hover {
+  box-shadow: 0 0 10px #cacaca; }
+
+.section-3 button {
+  border: 1px solid #bdbdbd;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #4d4d4d; }
+
+.section-4 .row .col-md-6 {
+  padding: 0px;
+  background-color: white; }
+.section-4 .row .col-md-6:nth-child(2) {
+  background-color: white;
+  padding: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative; }
+  .section-4 .row .col-md-6:nth-child(2) img {
+    position: absolute;
+    bottom: 0; }
+.section-4 .row .col-md-6:nth-child(1) {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: relative; }
+.section-4 .row .map {
+  width: 100%;
+  transition: 0.5s; }
+.section-4 .row .map-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #58D000;
+  top: 0;
+  mix-blend-mode: multiply;
+  transition: 0.5s; }
+.section-4 .row .map-color:hover {
+  display: none;
+  transition: 0.5s; }
+.section-4 .row .map:hover .map-color {
+  display: none;
+  transition: 0.5s; }
+
+@media (max-width: 576px) {
+  .row .col-sm-6 {
+    width: 50% !important; }
+
+  .card-footer .row .col-sm-3 {
+    width: 20%; }
+  .card-footer .row .col-sm-9 {
+    width: 75%; }
+
+  header {
+    height: 200px;
+    background: url("../meva-cheva/mobilni.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  footer .col-sm-5 {
+    width: 30%; }
+  footer .col-sm-4 {
+    width: 35%; }
+  footer .col-sm-3 {
+    width: 35%; } }
+@media (min-width: 577px) and (max-width: 767px) {
+  header {
+    height: 200px;
+    background: url("../meva-cheva/mobilni.png");
+    background-repeat: no-repeat;
+    background-size: cover; } }
+@media (min-width: 767px) and (max-width: 992px) {
+  .main-map {
+    height: 100vh; }
+
+  header {
+    height: 250px;
+    background: url("../meva-cheva/mobilni.png");
+    background-repeat: no-repeat;
+    background-size: cover; } }
+footer .row .col-md-5 {
+  padding: 0; }
+footer .row .col-md-2 {
+  padding: 0; }
+footer .row .col-md-5 .circle {
+  width: 40px;
+  height: 40px;
+  background-color: #a8a8a8;
+  border-radius: 50%;
+  margin-right: 10px; }
+  footer .row .col-md-5 .circle .icon {
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+    mask-position: center center;
+    mask-size: 90%;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    -webkit-mask-size: 90%;
+    -webkit-mask-repeat: no-repeat; }
+  footer .row .col-md-5 .circle .icon-t {
+    mask-image: url("../meva-cheva/telegram.svg");
+    -webkit-mask-image: url("../meva-cheva/telegram.svg"); }
+  footer .row .col-md-5 .circle .icon-f {
+    mask-image: url("../meva-cheva/facebook.svg");
+    height: 20px;
+    -webkit-mask-image: url("../meva-cheva/facebook.svg"); }
+  footer .row .col-md-5 .circle .icon-i {
+    mask-image: url("../meva-cheva/instagram.svg");
+    -webkit-mask-image: url("../meva-cheva/instagram.svg");
+    height: 20px; }
+
+/*# sourceMappingURL=task.css.map */

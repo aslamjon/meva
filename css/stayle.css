@@ -1,0 +1,17 @@
+ul {
+  text-align: center;
+  background-color: black; }
+
+ul li {
+  display: inline-block;
+  margin: 10px 20px; }
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none; }
+
+ul li a:hover {
+  color: #ffffff;
+  text-decoration: none; }
+
+/*# sourceMappingURL=stayle.css.map */
